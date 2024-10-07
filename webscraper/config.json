@@ -1,0 +1,23 @@
+{
+    "target_url": "https://example.com",
+    "max_depth": 3,
+    "proxies": {
+        "http": "http://127.0.0.1:8080"
+    },
+    "sql_payloads": [
+        "' OR 1=1 --", 
+        "' OR 'a'='a", 
+        "' UNION SELECT NULL, NULL, NULL -- "
+    ],
+    "xss_payloads": [
+        "<script>alert(1)</script>", 
+        "\"><img src=x onerror=alert(1)>"
+    ],
+    "export_format": "json",
+    "threads": 5,
+    "login_page": "https://example.com/login",
+    "login_credentials": {
+        "username": "admin",
+        "password": "password"
+    }
+}
