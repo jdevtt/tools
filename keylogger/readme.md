@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a Python-based keylogger designed for **ethical hacking** purposes. The keylogger operates on both **Windows** and **Linux** systems, captures keypresses (including key combinations), runs in stealth mode, and sends logged data to a remote server for analysis. This tool is useful for penetration testers or system administrators to evaluate security by monitoring user activity (with proper authorization).
+This is a Python-based keylogger designed for **ethical hacking** purposes. The keylogger operates on both **Windows** and **Linux** systems, captures keypresses (including key combinations), runs in stealth mode, and sends logged data to a remote server for analysis. This tool is useful for penetration testers or system administrators to evaluate security by monitoring user activity (with proper permission).
 
 
 ## Features
